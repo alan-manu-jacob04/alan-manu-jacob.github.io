@@ -575,7 +575,7 @@
 }
    
    /* Media query for screens above 1025px wide */
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1025px) and (min-width: 1440px) {
     .section4 .four .games .first-game .first{
         margin: 40px 0;
         padding: 40px;
