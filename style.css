@@ -270,7 +270,7 @@
     display: flex;
     width: 100%;
     white-space: nowarp;
-    animation: move linear infinite 15s;
+    animation: game linear infinite 15s;
 }
 .section6 .six .right .valorant .one h1{
     font-size: 3.7vw;
@@ -278,7 +278,7 @@
     text-transform: uppercase;
     font-weight: 800;
 }
-@keyframes move{
+@keyframes game{
     0%{
         transform: translateX(0);
     }
@@ -381,6 +381,12 @@
         width: 480px;
         object-fit: cover;
     }
+    .section4 .four .moving-text .text{
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        margin: 50px 0;
+    }
     .section4 .four .games .first-game .first{
         margin: 40px 0;
         padding: 40px;
@@ -407,10 +413,10 @@
         text-transform: uppercase;
     }
     @keyframes move{
-        from{
+        0%{
             transform: translateX(0);
         }
-        to{
+        100%{
             transform: translateX(-100%);
         }
     }
@@ -430,6 +436,66 @@
     .section4 .four .games .first-game .first:hover h4{
         opacity: 1;
         transform: translateY(0);
+    }
+    .section6 .six .left{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .section6 .six .move{
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        animation: scrolling linear infinite 15s;
+    }
+    .section6 .six .move h1{
+        font-size: 3.7vw;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+    .section6 .six .move span{
+        color: greenyellow;
+    }
+    .section6 .six .move i{
+        margin: 0 30px;
+        font-size: 50px;
+        color: greenyellow;
+    }
+    @keyframes scrolling{
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(-100%);
+        }
+    }
+    
+    .section6 .six .right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 0;
+        white-space: nowrap;
+    }
+    .section6 .six .right .valorant{
+        display: flex;
+        width: 100%;
+        white-space: nowarp;
+        animation: game linear infinite 15s;
+    }
+    .section6 .six .right .valorant .one h1{
+        font-size: 3.7vw;
+        margin: 0 10px;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    @keyframes game{
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(100%);
+        }
     }
     .section7 .follow .box{
         margin: 50px 0;
@@ -496,6 +562,12 @@
         justify-content: space-between;
         font-size: small
     }
+    .section4 .four .moving-text .text{
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        margin: 50px 0;
+    }
     .section4 .four .moving-text .text .first{
         display: flex;
         align-items: center;
@@ -518,6 +590,66 @@
         }
         to{
             transform: translateX(-100%);
+        }
+    }
+    .section6 .six .left{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .section6 .six .move{
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        animation: scrolling linear infinite 15s;
+    }
+    .section6 .six .move h1{
+        font-size: 3.7vw;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+    .section6 .six .move span{
+        color: greenyellow;
+    }
+    .section6 .six .move i{
+        margin: 0 30px;
+        font-size: 50px;
+        color: greenyellow;
+    }
+    @keyframes scrolling{
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(-100%);
+        }
+    }
+    
+    .section6 .six .right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 0;
+        white-space: nowrap;
+    }
+    .section6 .six .right .valorant{
+        display: flex;
+        width: 100%;
+        white-space: nowarp;
+        animation: game linear infinite 15s;
+    }
+    .section6 .six .right .valorant .one h1{
+        font-size: 3.7vw;
+        margin: 0 10px;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    @keyframes game{
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(100%);
         }
     }
     .section7 .follow .box{
@@ -591,6 +723,12 @@
         white-space: nowrap;
         animation: move linear infinite 15s;
     }
+    .section4 .four .moving-text .text{
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        margin: 50px 0;
+    }
     
     .section4 .four .moving-text .text .first video{
         height: 150px;
@@ -608,6 +746,66 @@
         }
         to{
             transform: translateX(-100%);
+        }
+    }
+    .section6 .six .left{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .section6 .six .move{
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        animation: scrolling linear infinite 15s;
+    }
+    .section6 .six .move h1{
+        font-size: 3.7vw;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+    .section6 .six .move span{
+        color: greenyellow;
+    }
+    .section6 .six .move i{
+        margin: 0 30px;
+        font-size: 50px;
+        color: greenyellow;
+    }
+    @keyframes scrolling{
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(-100%);
+        }
+    }
+    
+    .section6 .six .right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 0;
+        white-space: nowrap;
+    }
+    .section6 .six .right .valorant{
+        display: flex;
+        width: 100%;
+        white-space: nowarp;
+        animation: move linear infinite 15s;
+    }
+    .section6 .six .right .valorant .one h1{
+        font-size: 3.7vw;
+        margin: 0 10px;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    @keyframes move{
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform: translateX(100%);
         }
     }
     .section7 .follow .box{
