@@ -27,7 +27,6 @@ function section1 (){
         y:100,
         opacity:0,
         duration:0.8,
-
     });
 }
 section1();
@@ -51,7 +50,6 @@ function section2(){
             margin: "20px",
             background: "white",
         });
-
         gsap.to(body, {
             background:"#0f0f0f",
             color:"white",
@@ -85,7 +83,6 @@ function section3(){
     SectionThree.addEventListener('mouseenter',()=>{
         gsap.to(cursor,{
             background: "#0f0f0f",
-
         });
     });
 }
@@ -125,6 +122,7 @@ function section4(){
         });
     });
 //==================games===================
+
 let parentEl = document.querySelector(".bg");
 let childEl= document.querySelectorAll(".first-game .first");
 childEl.forEach((item) => {
@@ -184,7 +182,6 @@ function section7(){
             start: "bottom 60%",
             end: "bottom 40%",
             scrub: 1,
-
         },
     });
     sectionSeven.addEventListener("mouseenter",()=>{
@@ -196,7 +193,6 @@ function section7(){
                 start: "bottom 60%",
                 end: "bottom 40%",
                 scrub: 1,
-
             }        
         });
     });
